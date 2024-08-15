@@ -1,9 +1,7 @@
 
-const ImageWithJsx = () => {
-  const source =
-    "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-  const alternetive = "profile";
+import myPic from "../../assets/banner-image.jpg";
 
+const ImageWithJsx = () => {
   const myObj = {
     name: "Mr. Lika",
     them: {
@@ -23,8 +21,8 @@ const ImageWithJsx = () => {
           objectFit: "cover",
         }}
         className="profile"
-        src={source}
-        alt={alternetive}
+        src={myPic}
+        alt="Profile"
       />
     </>
   );
