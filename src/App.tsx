@@ -1,13 +1,12 @@
 import "./App.css";
 
-import Product from "./components/listRendering/Product";
-import Count from "./components/state/Count";
+import Rerender from "./components/state/Rerender";
 
 // Main Components for react project
 function App() {
   return (
     <>
-      <Count />
+      <Rerender name={""} artist={""} description={""} url={""} alt={""} />
     </>
   );
 }
